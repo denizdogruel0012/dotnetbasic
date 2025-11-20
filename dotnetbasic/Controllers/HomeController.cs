@@ -4,13 +4,17 @@ namespace dotnetbasic.Controllers
 {
     public class HomeController : Controller
     {
+        public string Index()
+        {
+            return "Home/Index";
+        }
         public string About()
         {
-            return "About";
+            return "Home/About";
         }
         public string Contact()
         {
-            return "Contact";
+            return "Home/Contact";
         }
     }
 }
